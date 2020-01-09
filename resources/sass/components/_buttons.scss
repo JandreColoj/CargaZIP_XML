@@ -1,0 +1,158 @@
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+   cursor: not-allowed;
+   opacity: 0.65;
+   filter: alpha(opacity=65);
+   box-shadow: none;
+}
+
+@mixin btnAzul($width: auto, $weigth:300) {
+   float: left;
+   width: $width;
+   background: var(--bg-azul);
+   font-weight: $weigth;
+   color: var(--blanco);
+
+   &:focus {
+      outline: none;
+      box-shadow: none;
+   }
+
+   &:hover {
+      background: var(--bg-rojo);
+      color: var(--blanco);
+   }
+}
+
+@mixin btnBlanco($width: auto, $weigth:300) {
+   float: left;
+   width: $width;
+   background: var(--blanco);
+   font-weight: $weigth;
+   color: var(--azul);
+
+   &:focus {
+      outline: none;
+      box-shadow: none;
+   }
+
+   &:hover {
+      background: var(--bg-azul);
+      color: var(--blanco);
+   }
+}
+
+@mixin btnFill($w_btn: auto, $font: $text_regular) {
+   float: left;
+   width: $w_btn;
+   background: var(--gris-secon);
+   color: var(--negro);
+   font-weight: $font;
+   margin: 0 5px;
+   font-size: var(--sub_text);
+
+   &:hover {
+      background: var(--azul-rgb);
+      color: var(--azul-secon);
+      font-weight: $text_bold;
+   }
+
+   &.active{
+      background: var(--azul-rgb);
+      color: var(--azul-secon);
+      font-weight: $text_bold;
+   }
+}
+
+@mixin btnPoductos($font-size) {
+   float: left;
+   background: #fff;
+   border: 1px solid #eee !important;
+   font-weight: normal !important;
+   font-size: $font-size !important;
+   letter-spacing: 0.01em;
+   color: var(--negro);
+   box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.08);
+   padding: 10px 15px;
+   border-radius: 5px;
+
+   &:active {
+      box-shadow: none !important;
+      outline: none !important;
+   }
+
+   &:focus {
+      color: var(--negro) !important;
+      outline: none !important;
+   }
+
+   &:hover {
+      background: var(--bg-azul);
+      color: var(--blanco) !important;
+   }
+}
+
+@mixin btnAyuda($font-size) {
+   float: left;
+   background: var(--bg-azul);
+   border: none;
+   font-weight: 400 !important;
+   font-size: $font-size !important;
+   letter-spacing: 0.5px;
+   color: var(--blanco);
+   box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.08);
+   padding: 10px 15px;
+   border-radius: 5px;
+
+   &:active {
+      box-shadow: none !important;
+      outline: none !important;
+      color: var(--blanco);
+   }
+
+   &:focus {
+      color: var(--blanco) !important;
+      outline: none !important;
+   }
+
+   &:hover {
+      background: var(--blanco);
+      color: var(--morado) !important;
+   }
+}
+
+@mixin btnAyudaPhone() {
+   width: 40px;
+   height: 40px;
+   background: var(--morado);/* url('../img/icoayuda.svg') no-repeat center !important */
+   background-size: 50% !important;
+   margin-bottom: 0;
+   font-weight: normal;
+   text-align: center;
+   vertical-align: middle;
+   touch-action: manipulation;
+   cursor: pointer;
+   background-image: none;
+   border: 1px solid transparent;
+   white-space: nowrap;
+   padding: 6px 12px;
+   font-size: 14px;
+   line-height: 1.6;
+   border-radius: 4px;
+   user-select: none;
+
+   &:active {
+      box-shadow: none !important;
+      outline: none !important;
+      color: var(--blanco);
+   }
+
+   &:focus {
+      color: var(--blanco) !important;
+      outline: none !important;
+   }
+
+   &:hover {
+      background: var(--blanco);
+      color: var(--morado) !important;
+   }
+}

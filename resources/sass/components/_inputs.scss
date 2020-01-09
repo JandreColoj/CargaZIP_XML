@@ -1,0 +1,20 @@
+@mixin inputSelect($weigth: $text_ligth) {
+   float: left;
+   width: 100%;
+   background: var(--blanco) url('../img/ico-flecha.svg') no-repeat 95% center;
+   background-size: 25px;
+   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.08);
+   border-radius: 8px;
+   color: var(--azul);
+   font-weight: $weigth;
+   border: none;
+
+   &:active {
+      outline: none;
+   }
+
+   &:focus {
+      outline: none !important;
+      box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.08) !important;
+   }
+}

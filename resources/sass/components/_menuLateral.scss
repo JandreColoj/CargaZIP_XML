@@ -1,0 +1,451 @@
+.container_menu {
+   float: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   top: 0;
+   position: fixed;
+   min-height: 100%;
+   z-index: 100;
+   background: var(--blanco);
+   box-shadow: 0 7px 14px 0 rgba(50, 50, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+
+   @include from(l) {
+      width: 13%;
+      transition: width .4s;
+   }
+
+   @include to(m) {
+      display: none;
+      width: 95%;
+      right: 0;
+      top: 0;
+      z-index: 200;
+      animation: .3s showMenu;
+   }
+
+   &.close_menus {
+      animation: .3s hideMenu;
+   }
+
+   &.active_menu {
+      display: flex;
+   }
+
+}
+
+.munu_banner {
+   display: none;
+
+   @include to(m) {
+      float: left;
+      width: 100%;
+      height: 50px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--blanco);
+      border-bottom: 1px solid var(--gris-secon);
+      padding: 0 10px;
+   }
+
+   .logo_posphone {
+      float: left;
+      width: 120px;
+      height: 100%;
+      background: url('../img/logo-pagalopos.svg') no-repeat center;
+      background-size: 80%;
+   }
+
+   .ico_menu {
+      float: left;
+      width: 50px;
+      height: 100%;
+      background: url('../img/ico-menu.svg') no-repeat center;
+      background-size: 50%;
+   }
+}
+
+@keyframes showMenu {
+  from {
+    right: -345px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes hideMenu {
+  from {
+    right: 0;
+  }
+  to {
+    right: -30%;
+  }
+}
+
+.container_menutop {
+   float: left;
+   width: 100%;
+   margin: 5px 0;
+
+   .logo_menupos {
+      float: left;
+      width: 100%;
+      height: 35px;
+      margin-top: 8px;
+      background: url('../img/logo-pagalopos.svg') no-repeat center;
+      background-size: 50%;
+
+      @include to(m) {
+         width: 80%
+      }
+   }
+
+   .logo_menupos_mini {
+      float: left;
+      width: 100%;
+      height: 40px;
+      margin-top: 8px;
+      background: url('../img/pos.jpg') no-repeat center;
+      background-size: 50%;
+
+      @include to(m) {
+         width: 80%
+      }
+   }
+
+   .ico_exit {
+      display: none;
+
+      @include to(m) {
+         display: block;
+         float: left;
+         width: 20%;
+         height: 35px;
+         margin-top: 8px;
+         background: url('../img/ico-close-secon.svg') no-repeat center;
+         background-size: 35%;
+      }
+   }
+
+   .container_menulist {
+      float: left;
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 15px;
+
+         .menulist_item {
+            float: left;
+            width: 100%;
+            height: 33px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 5px 0;
+            text-decoration: none;
+
+               p {
+                  color: var(--negro);
+                  font-weight: $text_regular;
+                  font-size: var(--text);
+                  margin: 0;
+               }
+         }
+
+         .menulist_item.active_menu {
+            border-right: 5px solid var(--azul);
+         }
+
+         .ico_escritorio {
+            background: url('../img/ico_escritorio.svg') no-repeat left center;
+            background-size: 20px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_reportes {
+            background: url('../img/ico_reportes.svg') no-repeat left center;
+            background-size: 16px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_ordenes {
+            background: url('../img/ico_ordenes.svg') no-repeat left center;
+            background-size: 15px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_rutero {
+            background: url('../img/ico_rutero.svg') no-repeat left center;
+            background-size: 15px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_vendedor {
+            background: url('../img/ico_vendedor.svg') no-repeat left center;
+            background-size: 15px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_bodega {
+            background: url('../img/ico_bodega.svg') no-repeat left center;
+            background-size: 15px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_cxc {
+            background: url('../img/ico_cxc.svg') no-repeat left center;
+            background-size: 21px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_clientes {
+            background: url('../img/ico_clientes.svg') no-repeat left center;
+            background-size: 14px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_productos {
+            background: url('../img/ico-productos.svg') no-repeat left center;
+            background-size: 16px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_promos {
+            background: url('../img/ico_promos.svg') no-repeat left center;
+            background-size: 16px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_trans {
+            background: url('../img/ico__encamino.svg') no-repeat left center;
+            background-size: 16px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+   }
+}
+
+.container_menubottom {
+   float: left;
+   width: 100%;
+   margin: 5px 0;
+
+   .container_menulist {
+      float: left;
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 15px;
+
+         .menulist_item {
+            float: left;
+            width: 100%;
+            height: 30px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 5px 0;
+            text-decoration: none;
+
+               p {
+                  color: var(--negro);
+                  font-weight: $text_ligth;
+                  font-size: var(--sub_text);
+                  margin: 0;
+               }
+         }
+
+         .ico-notificacion {
+            background: url('../img/ico-notificacion.svg') no-repeat 2px center;
+            background-size: 18px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_salir {
+            background: url('../img/ico_salir.svg') no-repeat left center;
+            background-size: 18px;
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_minimizar {
+            background: url('../img/ico-mini.svg') no-repeat 5px center;
+            background-size: 10px;
+
+            @include to(m) {
+               display: none;
+            }
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .ico_minimizar__rotate {
+            transform: rotate(180deg);
+            background: url('../img/ico-mini.svg') no-repeat 80% center;
+            background-size: 10px;
+
+            @include to(m) {
+               display: none;
+            }
+
+            &:hover {
+               background-color: var(--grisc)
+            }
+         }
+
+         .menulist_item.active_menu {
+            border-right: 5px solid var(--azul);
+         }
+   }
+}
+
+.ico_ajustes {
+   background: url('../img/ico_ajustes.svg') no-repeat left center;
+   background-size: 20px;
+
+   &:hover {
+      background-color: var(--grisc)
+   }
+}
+
+.list_toggle__menu {
+   float: left;
+   width: 100%;
+   padding-left: 8px;
+   list-style: none;
+
+   .toggle_item {
+      float: left;
+      width: 100%;
+      height: 30px;
+      padding-left: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 5px 0;
+      text-decoration: none;
+
+         p {
+            color: var(--negro);
+            font-weight: $text_ligth;
+            font-size: var(--sub_text);
+            margin: 0;
+         }
+   }
+}
+
+.ccanti{
+   position: relative;
+   cursor: pointer;
+
+   span{
+      position: absolute;
+      right: -25px;
+      top:2px;
+      width: 20px;
+      height: 20px;
+      background: linear-gradient(90deg,#5477f0 0%,#6c64ee);
+      border-radius: 10px;
+      color: #fff;
+      font-size: 11px;
+      font-weight: bold;
+      text-align: center;
+   }
+}
+
+.active_wmenul {
+   width: 5%;
+
+   @include from(xl) {
+      width: 3%;
+   }
+
+   .dnone_menut {
+     display: none !important;
+   }
+
+   .container_menulist {
+      .menulist_item {
+         p {
+            display: none;
+         }
+      }
+   }
+
+   ul li {
+     padding: 8px !important;
+
+     a {
+       padding: 10px !important;
+     }
+   }
+}
+
+.active_wdashboard {
+   width: 95%;
+
+   @include from(xl) {
+      width: 97%;
+   }
+
+   @include to(m) {
+     width: 100% !important;
+   }
+}

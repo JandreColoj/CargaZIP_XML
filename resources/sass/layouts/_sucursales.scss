@@ -1,0 +1,112 @@
+#modal_sucursales {
+   position: absolute;
+   background: #fff;
+   box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1);
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 200;
+   animation: 0.2s baaparecer;
+
+   .header_area {
+      float: left;
+      width: 100%;
+      height: 40px;
+      position: relative;
+      border:none;
+
+      h1 {
+         font-size: 17px;
+         color: #333;
+         text-align: left;
+         margin: 10px 15px;
+         font-weight: 600;
+      }
+   }
+
+   .container_acciones {
+      float: left;
+
+      @include to(m) {
+         float: left;
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         margin-top: 10px;
+      }
+
+      .btn_opcion {
+         @include btnPoductos(14px);
+         margin: 0 5px;
+      }
+
+   }
+
+}
+
+.show_modalSucursales {
+   display: flex;
+   z-index: 300;
+
+}
+
+.head_mcard {
+   float: left;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+   .ico_exit {
+      float: left;
+      width: 35px;
+      height: 25px;
+      background: url('../img/icov/ico-cerrarpop.svg') no-repeat center;
+      background-size: 50%;
+      cursor: pointer;
+   }
+}
+
+
+#modal_detalle_suc {
+   position: absolute;
+   background: #fff;
+   box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   height: 50%;
+   width: 98%;
+   max-width: 650px;
+   margin: auto;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 200;
+   animation: 0.2s baaparecer;
+
+   @include to(m) {
+      height: 98%;
+   }
+
+   .header_area {
+      float: left;
+      width: 100%;
+      height: 40px;
+      position: relative;
+      border:none;
+
+      h1 {
+         font-size: 17px;
+         color: #333;
+         text-align: left;
+         margin: 10px 15px;
+         font-weight: 600;
+      }
+   }
+
+}

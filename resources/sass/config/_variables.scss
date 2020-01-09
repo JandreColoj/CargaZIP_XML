@@ -1,0 +1,70 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+// Typography
+// $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+// $font-size-base: 0.9rem;
+// $line-height-base: 1.6;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$blanco: #fff;
+$naranja: #ffa04e;
+$melon: #ff6567;
+$morado: #7963f1;
+$gris: #e8e8e8;
+$grisc: #f9f9f9;
+$negro: #454545;
+$azul: #3A79F0;
+
+//Fonts
+$text_bold:700;
+$extra_bold: bold;
+$text_medium: 600;
+$text_regular: 400;
+$text_ligth: 300;
+
+$big_title: 20px;
+$title: 18px;
+$bigsub_title: 17px;
+$sub_title: 16px;
+$text: 15px;
+$sub_text: 14px;
+

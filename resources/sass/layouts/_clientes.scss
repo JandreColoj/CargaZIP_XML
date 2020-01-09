@@ -1,0 +1,133 @@
+.list_clientes {
+   float: left;
+   width: 100%;
+   padding: 0 10px;
+}
+
+.container_formcuentas {
+   float: left;
+   width: 100%;
+
+      .input_file {
+         width: 0.1px;
+         height: 0.1px !important;
+         opacity: 0;
+         overflow: hidden;
+         position: absolute;
+         z-index: -1;
+      }
+
+      .label_filec {
+         border: 2px solid var(--morado);
+         background-color: var(--blanco);
+         color: var(--negro);
+         width: 100%;
+         max-width: 100%;
+         height: 50px;
+         font-size: 1.25rem;
+         font-weight: 700;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         cursor: pointer;
+         display: inline-block;
+         overflow: hidden;
+         padding: 0;
+         border-radius: 8px;
+         display: flex;
+         justify-content: flex-end;
+
+         span {
+            width: 100%;
+            color: var(--negro);
+            font-weight: $text_medium;
+            font-size: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         strong {
+            height: 100%;
+            color: var(--blanco);
+            background: var(--morado);
+            display: inline-block;
+            padding: 0.625rem 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+               margin: 0;
+               margin-left: 5px;
+            }
+         }
+      }
+}
+
+.btnbox_center {
+   float: left;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.center_formcxc {
+   float: left;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.btn_resetc {
+   @include btnPoductos(18px);
+   width: 150px;
+   margin: 0 5px;
+}
+
+.btn_enviarc {
+   @include btnPoductos(18px);
+   width: 150px;
+   background: var(--bg-azul);
+   color: var(--blanco);
+   margin: 0 5px;
+}
+
+.top{
+   margin-top: 30px;
+}
+
+.error_valuecuenta {
+   float: left;
+   width: 100%;
+   border: 1px solid rgba(254, 94, 61, 0.8) !important;
+   background: rgba(254, 94, 61, 0.3);
+   padding: 5px 10px;
+   font-size: 13px;
+}
+
+.celdaInvalid{
+   background: rgba(254, 94, 61, 0.3) !important;
+}
+
+.celdaValid{
+   background:#c5e1a5 !important;
+}
+
+.content__datac {
+   max-height: 400px;
+   overflow-x: hidden;
+   overflow-y: auto;
+
+   &::-webkit-scrollbar {
+      width: 8px;
+      background-color: var(--gris);
+   }
+
+   &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: var(--azul);
+   }
+}

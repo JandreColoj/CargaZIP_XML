@@ -1,0 +1,77 @@
+.h_content {
+   height: 100vh;
+}
+
+.logo_pos {
+   float: left;
+   width: 100%;
+   height: 150px;
+   background: url('../img/logo-pagalopos.svg') no-repeat center;
+   background-size: 30%;
+}
+
+.input_login {
+   float: left;
+   width: 100%;
+   height: 55px;
+   border: none;
+   background: var(--gris);
+   padding: 10px;
+   outline: none !important;
+   box-shadow: none !important;
+   font-size: var(--text);
+   color: var(--negro);
+   font-weight: $text_ligth;
+
+   &:focus {
+      background: var(--gris);
+   }
+}
+
+.border_mail {
+   border-radius: 10px 10px 0 0 !important;
+}
+
+.border_pass {
+   border-radius: 0 0 10px 10px !important;
+   border-top: 1px solid var(--azul);
+}
+
+.link_pass {
+   float: left;
+   width: 100%;
+   text-align: center;
+   font-size: var(--sub_title);
+   font-weight: $text_ligth;
+   color: var(--azul);
+   text-decoration: underline;
+   margin-top: 5px;
+}
+
+.btn_login {
+   float: left;
+   width: 55%;
+   background: var(--azul);
+   color: var(--blanco);
+   font-size: var(--bigsub_title);
+   font-weight: $text_ligth;
+   border-radius: 25px;
+   margin-top: 5px;
+
+   &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+   }
+
+   &:hover {
+      color: var(--blanco);
+   }
+}
+
+.bg_loging {
+   float: left;
+   width: 100%;
+   height: 100vh;
+   background: var(--azul) url('../img/bg-login.svg') no-repeat 100% -2%;
+   background-size: 85%;
+}

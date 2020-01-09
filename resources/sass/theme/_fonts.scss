@@ -1,0 +1,17 @@
+:root {
+   --big_title: #{$big_title};
+   --title: #{$title};
+   --bigsub_title: #{$bigsub_title};
+   --sub_title: #{$sub_title};
+   --text: #{$text};
+   --sub_text: #{$sub_text};
+   --small_text: #{$sub_text - 1};
+
+   @include to(m) {
+      --title: 18px;
+      --sub_title: 16px;
+      --text: 14px;
+      --sub_text: 13px;
+      --small_text: 12px;
+   }
+}

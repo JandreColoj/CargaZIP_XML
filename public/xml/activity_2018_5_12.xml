@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><report><license>100e-d98b-8764-10e3</license><course><courseId>6701</courseId><activity id="1"><actId>16215</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Introducción: Los alimentos</Title><Title language-id="en_US">Introducción: Los alimentos</Title><Title language-id="fr_FR">Introducción: Los alimentos</Title><Title language-id="pt_BR">Introducción: Los alimentos</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16215</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_00</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="2"><actId>16216</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Origen de las principales comidas </Title><Title language-id="en_US">Origen de las principales comidas </Title><Title language-id="fr_FR">Origen de las principales comidas </Title><Title language-id="pt_BR">Origen de las principales comidas </Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16216</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_01</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults><activityResult><larId>13404</larId><userId>64724</userId><result>20</result><startDate>2018-03-27 16:24:03</startDate><endDate/><latId>0</latId><passed>false</passed><comments/></activityResult></activityResults></activity><activity id="3"><actId>16217</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Los grupos de alimentos</Title><Title language-id="en_US">Los grupos de alimentos</Title><Title language-id="fr_FR">Los grupos de alimentos</Title><Title language-id="pt_BR">Los grupos de alimentos</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16217</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_02</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults><activityResult><larId>13501</larId><userId>64724</userId><result>71</result><startDate>2018-03-27 17:12:47</startDate><endDate/><latId>0</latId><passed>false</passed><comments/></activityResult></activityResults></activity><activity id="4"><actId>16218</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Alimentos naturales e industrializados</Title><Title language-id="en_US">Alimentos naturales e industrializados</Title><Title language-id="fr_FR">Alimentos naturales e industrializados</Title><Title language-id="pt_BR">Alimentos naturales e industrializados</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16218</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_03</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="5"><actId>16219</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Las cuatro comidas del día</Title><Title language-id="en_US">Las cuatro comidas del día</Title><Title language-id="fr_FR">Las cuatro comidas del día</Title><Title language-id="pt_BR">Las cuatro comidas del día</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16219</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_04</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="6"><actId>16220</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Hábitos de higiene en la alimentación</Title><Title language-id="en_US">Hábitos de higiene en la alimentación</Title><Title language-id="fr_FR">Hábitos de higiene en la alimentación</Title><Title language-id="pt_BR">Hábitos de higiene en la alimentación</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16220</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_05</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="7"><actId>16221</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">La alimentación en las diferentes culturas</Title><Title language-id="en_US">La alimentación en las diferentes culturas</Title><Title language-id="fr_FR">La alimentación en las diferentes culturas</Title><Title language-id="pt_BR">La alimentación en las diferentes culturas</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16221</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_06</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="8"><actId>16222</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Poesía de las frutas</Title><Title language-id="en_US">Poesía de las frutas</Title><Title language-id="fr_FR">Poesía de las frutas</Title><Title language-id="pt_BR">Poesía de las frutas</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16222</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_07</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults><activityResult><larId>13502</larId><userId>64724</userId><result>100</result><startDate>2018-03-27 17:15:32</startDate><endDate>2018-03-27 17:15:32</endDate><latId>0</latId><passed>true</passed><comments/></activityResult></activityResults></activity><activity id="9"><actId>16223</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:10</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Evaluación: Los alimentos</Title><Title language-id="en_US">Evaluación: Los alimentos</Title><Title language-id="fr_FR">Evaluación: Los alimentos</Title><Title language-id="pt_BR">Evaluación: Los alimentos</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16223</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_08</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity><activity id="10"><actId>16224</actId><companyId>10153</companyId><userId>79503</userId><groupId>145732</groupId><userName>profesor, profesor</userName><createDate>2018-03-27 16:23:10</createDate><modifiedDate>2018-03-27 16:23:11</modifiedDate><status>0</status><title><![CDATA[<?xml version='1.0' encoding='UTF-8'?><root available-locales="es_ES,en_US,fr_FR,pt_BR," default-locale="es_ES"><Title language-id="es_ES">Resumen: Los alimentos</Title><Title language-id="en_US">Resumen: Los alimentos</Title><Title language-id="fr_FR">Resumen: Los alimentos</Title><Title language-id="pt_BR">Resumen: Los alimentos</Title></root>]]></title><description/><typeId>9</typeId><startDate>2018-03-27 16:22:00</startDate><endDate>2025-03-27 16:22:00</endDate><precedence>0</precedence><tries>0</tries><passpuntuation>100</passpuntuation><priority>16224</priority><moduleId>7302</moduleId><extracontent><![CDATA[<?xml version="1.0"?>
+
+<scorm>
+	<assetEntry>142406</assetEntry>
+	<completedAsPassed>false</completedAsPassed>
+	<sco>ITEM_09</sco>
+	<openWindow>false</openWindow>
+	<windowWith>0</windowWith>
+	<height>0</height>
+	<improve>true</improve>
+	<uuid>3d8123ea-fd4b-4007-8c62-90f1ceb90187</uuid>
+	<scormDebug>false</scormDebug>
+</scorm>]]></extracontent><feedbackCorrect/><feedbackNoCorrect/><weightinmodule>1</weightinmodule><activityResults/></activity></course></report>

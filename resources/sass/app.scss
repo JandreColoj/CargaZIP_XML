@@ -1,0 +1,39 @@
+//Frameword and library
+$cssCore: false;
+$cssHelpers: true;
+$devMode: false;
+@import "library/ed-grid/ed-grid";
+@import "library/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Config
+@import "config/functions";
+@import "config/variables";
+@import "config/mixins";
+
+//BASE
+@import "base/base";
+
+//Components
+@import 'components/componets';
+
+//Styles Helpers
+@import "helpers/helpers";
+
+// styles theme
+@import "layouts/login";
+@import "layouts/escritorio";
+@import "layouts/reportes";
+@import "layouts/ordenes";
+@import "layouts/clientes";
+@import "layouts/productos";
+@import "layouts/pedidos";
+@import "layouts/promociones";
+@import "layouts/sucursales";
+@import "layouts/pilotos";
+
+//variables css colors and fonts theming
+@import "theme/fonts";
+@import "theme/colors";
+
+//Hacks
+@import "hacks/hacks";
